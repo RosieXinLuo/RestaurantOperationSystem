@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ResApp.serverPage.EnterOrder.EnterOrderController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="19.0" layoutY="73.0" text="Please Enter Valid Table " />
+            <Label layoutX="13.0" layoutY="107.0" text="Number And People Number !!!" />
+         </children></AnchorPane>
+   </center>
+</BorderPane>

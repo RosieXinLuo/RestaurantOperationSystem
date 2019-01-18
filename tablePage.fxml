@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ResApp.tableView.tableController">
+   <center>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="600.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="Table1" layoutX="62.0" layoutY="58.0" mnemonicParsing="false" prefHeight="108.0" prefWidth="101.0" text="1" />
+            <Button fx:id="Table2" layoutX="213.0" layoutY="58.0" mnemonicParsing="false" prefHeight="109.0" prefWidth="99.0" text="2" />
+            <Button fx:id="Table3" layoutX="66.0" layoutY="223.0" mnemonicParsing="false" prefHeight="116.0" prefWidth="95.0" text="3" />
+            <Button fx:id="Table4" layoutX="212.0" layoutY="223.0" mnemonicParsing="false" prefHeight="114.0" prefWidth="101.0" text="4" />
+            <Button fx:id="Table5" layoutX="63.0" layoutY="385.0" mnemonicParsing="false" prefHeight="114.0" prefWidth="100.0" text="5" />
+            <Button fx:id="Table6" layoutX="215.0" layoutY="386.0" mnemonicParsing="false" prefHeight="112.0" prefWidth="96.0" text="6" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

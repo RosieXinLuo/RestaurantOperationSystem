@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ResApp.staffView.MainLoginController">
+   <center>
+      <AnchorPane prefHeight="299.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button  prefHeight="30.0" prefWidth="80.0" layoutX="310.0" layoutY="150.0" mnemonicParsing="false" onAction="#goServer" text="Server"  textAlignment="CENTER" />
+            <Button prefHeight="30.0" prefWidth="80.0" layoutX="400.0" layoutY="150.0" mnemonicParsing="false" onAction="#goCook" text="Cook" textAlignment="CENTER" />
+            <Button prefHeight="30.0" prefWidth="80.0"  layoutX="490.0" layoutY="150.0" mnemonicParsing="false" onAction="#goManager" text="Manager" textAlignment="CENTER"/>
+            <Label layoutX="415.0" layoutY="89.0" text="Welcome" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

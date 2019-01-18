@@ -1,0 +1,8 @@
+Beefburger, 9 | Meal | Beef x1 | Lettuce x2 | Tomato x2 |
+Cheeseburger ,8.5 | Meal | Cheese x1 | Lettuce x2 | Tomato x2 |
+Iced Coke ,1.5 | Drink | Coke x1 | Ice x1 |
+Beer ,2.5 | Drink | Beer x1 | Ice x1 |
+Orange Juice ,3.5 | Drink | Orange x2 | Ice x1 |
+Pork Burger,8.5 | Meal | Pork x1 | Tomato x2 | Lettuce x2 |
+Egg Sandwich ,5 | Meal |Egg x1 | Potato x1 |
+Chicken Sandwich ,8 | Meal | Chicken x1 | Onion x1 | Lettuce x2 |

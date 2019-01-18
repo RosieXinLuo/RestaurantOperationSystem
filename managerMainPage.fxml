@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ResApp.ManagerPage.ManagerControl">
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+            <Button mnemonicParsing="false" onAction="#goAddNewStaffPage" text="Add New Staff" />
+            <Button mnemonicParsing="false" onAction="#goInventoryPage" text="Check Inventory" />
+            <Button mnemonicParsing="false" onAction="#goReceiveIngredientPage" text="Receive" />
+            <Button mnemonicParsing="false" onAction="#goSetThresholdPage" text="SetThreshold" />
+            <Button mnemonicParsing="false" onAction="#goDailyIncomePage" text="Daily Income" />
+            <Button fx:id="checkOrders" mnemonicParsing="false" onAction="#goCheckOrder" text="Check Orders" />
+          <Button mnemonicParsing="false" onAction="#goLoginPage" text="LogOut" />
+        </items>
+      </ToolBar>
+   </top>
+   <left>
+      <AnchorPane prefHeight="560.0" prefWidth="404.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <AnchorPane prefHeight="560.0" prefWidth="471.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>
